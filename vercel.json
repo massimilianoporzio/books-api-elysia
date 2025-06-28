@@ -5,6 +5,11 @@
             "destination": "/api"
         }
     ],
+    "functions": {
+    "api/index.ts": {
+      "runtime": "vercel-bun@3.0.0" 
+    }
+  },
     "installCommand": "curl -fsSL https://bun.sh/install | bash && ~/.bun/bin/bun install --frozen-lockfile",
     "buildCommand": "~/.bun/bin/bun run build",
     "outputDirectory": "dist"
