@@ -5,6 +5,11 @@
             "destination": "/api"
         }
     ],
+     "functions": {
+    "api/index.ts": {
+      "runtime": "bun"
+    }
+  },
     "outputDirectory": "dist"
     
 }
