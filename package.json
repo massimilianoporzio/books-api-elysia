@@ -3,7 +3,7 @@
   "version": "1.0.50",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "bun run api/index.ts",
+    "start": "bun ./dist/index.js",
     "dev": "bun run --watch api/index.ts",
     "vercel-build": "echo Hello",
     "build": "bun build api/index.ts --outdir=dist --target=node"
